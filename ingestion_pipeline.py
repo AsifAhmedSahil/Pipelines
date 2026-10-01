@@ -108,7 +108,7 @@ def main():
     
     # Step 1: Load documents
     documents = load_documents(docs_path)  
-
+# update
     # Step 2: Split into chunks
     chunks = split_documents(documents)
     

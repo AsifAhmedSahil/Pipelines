@@ -105,7 +105,7 @@ def main():
         return vectorstore
     
     print("Persistent directory does not exist. Initializing vector store...\n")
-    
+    # update
     # Step 1: Load documents
     documents = load_documents(docs_path)  
 

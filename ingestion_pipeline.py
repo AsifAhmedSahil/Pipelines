@@ -6,7 +6,7 @@ from langchain_chroma import Chroma
 from dotenv import load_dotenv
 
 load_dotenv()
-#update
+
 def load_documents(docs_path="docs"):
     """Load all text files from the docs directory"""
     print(f"Loading documents from {docs_path}...")

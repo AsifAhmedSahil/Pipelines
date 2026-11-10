@@ -15,7 +15,7 @@ def load_documents(docs_path="docs"):
     if not os.path.exists(docs_path):
         raise FileNotFoundError(f"The directory {docs_path} does not exist. Please create it and add your company files.")
     
-    # Load all .txt files from the docs directory
+
     loader = DirectoryLoader(
         path=docs_path,
         glob="*.txt",

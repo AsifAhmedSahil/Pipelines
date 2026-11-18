@@ -4,7 +4,7 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
-//update
+
 load_dotenv()
 
 def load_documents(docs_path="docs"):
